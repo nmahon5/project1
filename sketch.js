@@ -24,7 +24,7 @@ for(let i = 0; i <= numberofblocks; i++){
 
 
 function draw(){
-  background(105,205,230)
+  background(0)
   for(i = 0; i<blocks.length; i++){
     blocks[i].move();
     blocks[i].show();
