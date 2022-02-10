@@ -18,8 +18,8 @@ function setup() {
   for(let i = 0; i <= numberofblocks; i++){
     let x = i * 5;
     let y = i * 5;
-    let speedX = 5;
-    let speedY = 5;
+    let speedX = 2;
+    let speedY = 2;
     blocks[i] = new Block(x,y,speedX,speedY);
   
   }
@@ -111,8 +111,8 @@ function keyPressed(){
     for(let i = 0; i <= numberofblocks; i++){
       let x = i * 5;
       let y = i * 5;
-      let speedX = 2;
-      let speedY = 2;
+      let speedX = 5;
+      let speedY = 5;
       blocks[i] = new Block(x,y,speedX,speedY);
       
     }
@@ -125,8 +125,8 @@ function keyPressed(){
     for(let i = 0; i <= numberofblocks; i++){
       let x = i * 5;
       let y = i * 5;
-      let speedX = 3;
-      let speedY = 3;
+      let speedX = 4;
+      let speedY = 4;
       blocks[i] = new Block(x,y,speedX,speedY);
       
     }
@@ -139,8 +139,8 @@ function keyPressed(){
     for(let i = 0; i <= numberofblocks; i++){
       let x = i * 5;
       let y = i * 5;
-      let speedX = 4;
-      let speedY = 4;
+      let speedX = 3;
+      let speedY = 3;
       blocks[i] = new Block(x,y,speedX,speedY);
       
     }
@@ -152,8 +152,8 @@ function keyPressed(){
     for(let i = 0; i <= numberofblocks; i++){
       let x = i * 5;
       let y = i * 5;
-      let speedX = 5;
-      let speedY = 5;
+      let speedX = 2;
+      let speedY = 2;
       blocks[i] = new Block(x,y,speedX,speedY);
       
     }
